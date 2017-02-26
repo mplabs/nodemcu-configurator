@@ -1,0 +1,26 @@
+@import 'settings';
+@import 'foundation';
+
+@include foundation-global-styles;
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+@include foundation-typography;
+@include foundation-forms;
+
+html,
+body {
+  height: 100vh;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.nodemcu-logo {
+  max-width: 15vw;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
